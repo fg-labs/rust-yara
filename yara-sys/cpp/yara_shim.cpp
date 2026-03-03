@@ -586,9 +586,8 @@ struct MapperInstance : MapperBase {
         size_t error_buf_len
     ) override {
         typedef MapperTraits<void, TConfig> TTraits;
-        typedef typename TTraits::TMatch    TMatch;
-        typedef typename TTraits::TReadSeqs TReadSeqs;
-        typedef typename Value<TReadSeqs>::Type TReadSeq;
+        typedef typename TTraits::TMatch       TMatch;
+        typedef typename TTraits::TReads::TSeq TReadSeq;
 
         // Zero the output buffer once up front so all pointer fields start
         // as null.  This is the single point of zeroing — _nextRecord and
