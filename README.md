@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/fulcrumgenomics/rust-yara/actions/workflows/check.yml/badge.svg)](https://github.com/fulcrumgenomics/rust-yara/actions/workflows/check.yml)
+[![Build Status](https://github.com/fg-labs/rust-yara/actions/workflows/check.yml/badge.svg)](https://github.com/fg-labs/rust-yara/actions/workflows/check.yml)
 [![crates.io](https://img.shields.io/crates/v/yara-mapper.svg)](https://crates.io/crates/yara-mapper)
 [![docs.rs](https://docs.rs/yara-mapper/badge.svg)](https://docs.rs/yara-mapper)
 [![License: MIT](https://img.shields.io/crates/l/yara-mapper.svg)](LICENSE)
